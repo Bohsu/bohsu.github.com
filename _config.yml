@@ -11,7 +11,6 @@ links:
     url:          /about
   - name:         Blog
     url:          http://bohsu.github.io/
-    external:     true
   - name:         GitHub
     url:          https://github.com/Bohsu
     external:     true
