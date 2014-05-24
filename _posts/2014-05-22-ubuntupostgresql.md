@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubuntu下Postgresql的使用
-date: 2014-05-22
+date: 2014-05-22 17:20:31
 ---
 
 ###一.在Ubuntu下安装Postgresql  

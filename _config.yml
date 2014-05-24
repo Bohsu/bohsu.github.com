@@ -1,5 +1,5 @@
 title:            Bohsu
-description:      A web developer.
+description:     A web developer.
 url:              # Site url.
 signoff:          # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
@@ -18,5 +18,4 @@ pygments:         true
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
-  extensions:
-    - smart
+  extensions:     [autolink, tables]
