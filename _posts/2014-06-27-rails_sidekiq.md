@@ -31,7 +31,7 @@ $ sudo chown redis.redis /var/log/redis
 {% endhighlight %}  
 
 4. 进设置开机自动启动，关机自动关闭{% highlight bash %}
-sudo update-rc.d redis-server defaults
+$ sudo update-rc.d redis-server defaults
 {% endhighlight %}
 
 5. 启动Redis{% highlight bash %} $ sudo /etc/init.d/redis-server start{% endhighlight %}
@@ -46,12 +46,12 @@ gem 'slim'
 gem 'sinatra', '>= 1.3.0', :require => nil{% endhighlight %}
 
 2. 创建Worker: app/workers/your_worker.rb{% highlight ruby %}
-class YourWorker
-  include Sidekiq::Worker
-  def perform(name)
-    puts 'Doing hard work' 
-  end
-end{% endhighlight %}
+class YourWorker  
+  include Sidekiq::Worker  
+  def perform(name)  
+    puts 'Doing hard work'   
+  end  
+end{% endhighlight %}  
 
 3. 在controller或者model中调用YourWorker{% highlight bash %}
 YourWorker.perform_async('yggc'){% endhighlight %}
@@ -76,7 +76,7 @@ redis:
 [http://www.redis.cn/download.html](http://www.redis.cn/download.html)  
 [http://rubyer.me/blog/638](http://rubyer.me/blog/638)  
 
-sidekiq:
+sidekiq:  
 [http://mperham.github.io/sidekiq](http://mperham.github.io/sidekiq) 
 [http://railscasts.com/episodes/366-sidekiq](http://railscasts.com/episodes/366-sidekiq) 
 [https://github.com/mperham/sidekiq/wiki](https://github.com/mperham/sidekiq/wiki) 
