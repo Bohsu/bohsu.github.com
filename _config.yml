@@ -1,7 +1,7 @@
-title:            Bohsu
+title:            Bohsu Blog
 description:     A web developer.
 url:              # Site url.
-signoff:          # Your name.
+signoff:          Bohsu.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
@@ -9,10 +9,10 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         Blog
     url:          http://bohsu.github.io/
-  - name:         About
-    url:          /about
   - name:         GitHub
     url:          https://github.com/Bohsu
+  - name:         About
+    url:          /about
     external:     true
 pygments:         true
 permalink:        pretty
