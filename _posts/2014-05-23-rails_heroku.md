@@ -8,8 +8,8 @@ date: 2014-05-23 18:05:00
 
 * 添加gem,并budle install{% highlight ruby %}
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+      gem 'pg'
+      gem 'rails_12factor'
 end{% endhighlight %}  
 
 ###部署Heroku  

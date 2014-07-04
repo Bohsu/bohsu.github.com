@@ -47,10 +47,10 @@ gem 'sinatra', '>= 1.3.0', :require => nil{% endhighlight %}
 
 2. 创建Worker: app/workers/your_worker.rb{% highlight ruby %}
 class YourWorker
-  include Sidekiq::Worker
-  def perform(name)
-    puts 'Doing hard work'
-  end
+      include Sidekiq::Worker
+      def perform(name)
+        puts 'Doing hard work'
+      end
 end{% endhighlight %}
 
 3. 在controller或者model中调用YourWorker{% highlight bash %}
